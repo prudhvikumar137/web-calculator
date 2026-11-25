@@ -15,7 +15,7 @@
 #ADD https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.120/bin/apache-tomcat-9.0.120.tar.gz /app/
 
 #RUN tar -xzf apache-tomcat-9.0.120.tar.gz && \
-    mv apache-tomcat-9.0.120 tomcat
+   # mv apache-tomcat-9.0.120 tomcat
 
 #COPY --from=builder /app/target/*.war /app/tomcat/webapps/
 
